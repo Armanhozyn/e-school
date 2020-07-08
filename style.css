@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #FFFFFF;
+    font-family: poppin;
+}
+/* common elements style */
+.btn-green{
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.headline{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 80px;
+}
+/* common elements style End*/
+
+/* Header style Start */
+header{
+    background: #F0FFF0;
+}
+#banner h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+#banner p{
+    color: #7C7D7B;
+    line-height: 2em;
+}
+#banner .color-orange{
+    color:#FD511A;
+}
+
+.btn-sign-in{
+    width: 120px;
+    padding: 10px 0px;
+    border-radius: 25px;
+}
+
+.nav-link{
+    margin-right: 20px;
+    font-weight:500;
+    color: #000;
+}
+/* Header style stop */
+
+/* Category Style Start */
+#category{
+    margin-top: 80px;
+}
+.cat-elements{
+    background: #F8FFFB;
+    padding: 50px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease all;
+}
+#category .cat-elements h4{
+    font-weight: 600;
+    color: #413960;
+}
+#category .cat-elements h6{
+    color: #585859;
+    font-size: 15px;
+}
+
+.cat-elements:hover{
+  background: #FFFFFF;
+  box-shadow:10px 10px 40px #cab4b4a8;
+}
+
+/* Category Styles Stop */
+
+/* Online Course Style Start */
+
+#course{
+    margin-top: 120px;
+}
+
+#course .card{
+    border:none;
+    padding: 20px;
+    box-shadow: 10px 10px 40px #cab4b4a8;
+    border-radius: 15px;
+}
+#course .card .card-footer{
+    border:none;
+    background: #fff;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+#course .card .card-footer span{
+    font-size: 15px;
+    padding-top: 3px;
+    padding-left: 5px;
+    color: #6A6A6B;
+}
+/* Online Course style Stop*/
+
+/* testomonial Start */
+#testimonial{
+    padding: 120px;
+}
+#testimonial p{
+    font-weight: bold;
+    line-height: 2em;
+}
+
+
+
+/* testomonial Stop */
+
+/*Foote style start */
+
+footer{
+    background: #282531;
+    color: #FFFFFF;
+}
+footer ul li{
+    list-style-type: none;
+    line-height: 2.2em;
+}
+footer ul li:first-child{
+    font-weight:bold;
+    font-size: 20px;
+}
+.copy-right{
+    color:#8C8B8F;
+    font-size: 20px;
+}
+
+/* Footer style Stop */
