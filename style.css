@@ -45,8 +45,8 @@ header{
 }
 /* Header style stop */
 
-/* Category Style Start */
-#category{
+/* books Style Start */
+#books{
     margin-top: 80px;
 }
 .cat-elements{
@@ -56,11 +56,11 @@ header{
     cursor: pointer;
     transition: 0.5s ease all;
 }
-#category .cat-elements h4{
+#books .cat-elements h4{
     font-weight: 600;
     color: #413960;
 }
-#category .cat-elements h6{
+#books .cat-elements h6{
     color: #585859;
     font-size: 15px;
 }
@@ -111,6 +111,37 @@ header{
 
 
 /* testomonial Stop */
+
+/*Contact Style Start */
+#contact{
+    background: #FAFAFA;
+    padding: 120px;
+    overflow: hidden;
+}
+#contact .card{
+    border:none;
+}
+#contact img{
+    width: 50px;
+
+}
+.small-img{
+    width:38px !important; 
+}
+#contact .contact-box p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contact .contact-box{
+    border: 2px solid #DFDFDF;
+    padding: 40px;
+}
+
+
+/* Contact Style Stop
+
+
 
 /*Foote style start */
 
